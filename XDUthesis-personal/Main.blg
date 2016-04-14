@@ -2,49 +2,187 @@ This is BibTeX, Version 0.99d (TeX Live 2015/W32TeX)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Main.aux
 The style file: XDUbib.bst
-Database file #1: ThesisFiles/RefFile.bib
-Warning--I'm ignoring BooE's extra "edition" field
---line 103 of file ThesisFiles/RefFile.bib
-Warning--I didn't find a database entry for "shanshui"
-You've used 15 entries,
+I found no \citation commands---while reading file Main.aux
+Database file #1: ThesisFiles/one.bib
+I was expecting a `,' or a `}'---line 3 of file ThesisFiles/one.bib
+ :    author 
+ :           = {Belshe, Mike and Peon, Roberto},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 17 of file ThesisFiles/one.bib
+ :    author 
+ :           = {Belshe, Mike and Thomson, Martin and Peon, Roberto},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 31 of file ThesisFiles/one.bib
+ :    author 
+ :           = {Fielding, Roy and Gettys, Jim and Mogul, Jeffrey and Frystyk, Henrik and Masinter, Larry and Leach, Paul and Berners-Lee, Tim},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 47 of file ThesisFiles/one.bib
+ :    author 
+ :           = {Holovaty, Adrian and Kaplan-Moss, Jacob},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 65 of file ThesisFiles/one.bib
+ :    author 
+ :           = {Jain, Sonal and Vaibhav, Anant and Goyal, Lovely},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 85 of file ThesisFiles/one.bib
+ :    author 
+ :           = {Jensen, J.R.},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 135 of file ThesisFiles/one.bib
+ :    author 
+ :           = {Jia, XU and Qi, CHEN},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 157 of file ThesisFiles/one.bib
+ :    author 
+ :           = {Kain, Robert C},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 173 of file ThesisFiles/one.bib
+ :    author 
+ :           = {Merkel, Dirk},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 197 of file ThesisFiles/one.bib
+ :    author 
+ :           = {Padhye, Jitu and Nielsen, Henrik Frystyk},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 213 of file ThesisFiles/one.bib
+ :    author 
+ :           = {Payne, Bryan D and Carbone, Martim and Sharif, Monirul and Lee, Wenke},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 233 of file ThesisFiles/one.bib
+ :    author 
+ :           = {Pi, Raspberry},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 251 of file ThesisFiles/one.bib
+ :    author 
+ :           = {Popa, Sorin},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 267 of file ThesisFiles/one.bib
+ :    author 
+ :           = {Upton, Eben and Halfacree, Gareth},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 285 of file ThesisFiles/one.bib
+ :    author 
+ :           = {Valente, Frederico and Viana-Ferreira, Carlos and Costa, Carlos and Oliveira, Jose Luis},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 309 of file ThesisFiles/one.bib
+ :    author 
+ :           = {Verborgh, Ruben and Steiner, Thomas and Van Deursen, Davy and De Roo, Jos and Van de Walle, Rik and Vallés, Joaquim Gabarro},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 327 of file ThesisFiles/one.bib
+ :    author 
+ :           = {Wang, Xiao Sophia and Balasubramanian, Aruna and Krishnamurthy, Arvind and Wetherall, David},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 345 of file ThesisFiles/one.bib
+ :    author 
+ :           = {Yinli, Lu and Hongli, Yu and Pengpeng, Zhang},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 365 of file ThesisFiles/one.bib
+ :    author 
+ :           = {刘媛 and 张伟 and 王知学},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 385 of file ThesisFiles/one.bib
+ :    author 
+ :           = {姚聪 and 方勇 and 汪敏 and 潘志浩},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 407 of file ThesisFiles/one.bib
+ :    author 
+ :           = {姚骏恩},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 429 of file ThesisFiles/one.bib
+ :    author 
+ :           = {宋敏 and 郐新凯 and 郑亚茹},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 451 of file ThesisFiles/one.bib
+ :    author 
+ :           = {宽 and 小鹏},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 469 of file ThesisFiles/one.bib
+ :    author 
+ :           = {张晓东 and 李秀娟 and 张杰},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 491 of file ThesisFiles/one.bib
+ :    author 
+ :           = {李龙棋 and 方美发 and 唐晓腾},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 513 of file ThesisFiles/one.bib
+ :    author 
+ :           = {段宗涛 and 沙爱民 and 张燕妮},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 535 of file ThesisFiles/one.bib
+ :    author 
+ :           = {汪鑫 and 彭雨薇},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 557 of file ThesisFiles/one.bib
+ :    author 
+ :           = {熊平},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 579 of file ThesisFiles/one.bib
+ :    author 
+ :           = {王云新 and 王大勇 and 杨怡姝 and 赵洁 and 欧阳丽婷 and 肖向茜 and 戎路},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 619 of file ThesisFiles/one.bib
+ :    author 
+ :           = {王云新 and 王大勇 and 赵洁 and 李艳 and 万玉红},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 641 of file ThesisFiles/one.bib
+ :    author 
+ :           = {王仲春 and 高岳 and 黄粤熙 and 胡士凌 and 高稚允},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 661 of file ThesisFiles/one.bib
+ :    author 
+ :           = {王华英 and 王大勇 and 赵洁 and 谢建军},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 691 of file ThesisFiles/one.bib
+ :    author 
+ :           = {王向军 and 王峰},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 713 of file ThesisFiles/one.bib
+ :    author 
+ :           = {闽, 雷 and 毕革平},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 747 of file ThesisFiles/one.bib
+ :    author 
+ :           = {顺祥 and 海兴 and 物理学 and 劲松 and 光学},
+I'm skipping whatever remains of this entry
+You've used 0 entries,
             2657 wiz_defined-function locations,
-            679 strings with 5400 characters,
-and the built_in function-call counts, 5398 in all, are:
-= -- 495
-> -- 350
-< -- 1
-+ -- 135
-- -- 120
-* -- 445
-:= -- 947
-add.period$ -- 53
-call.type$ -- 15
-change.case$ -- 79
+            606 strings with 4727 characters,
+and the built_in function-call counts, 18 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 2
+:= -- 7
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 15
-duplicate$ -- 152
-empty$ -- 405
-format.name$ -- 120
-if$ -- 1134
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
 int.to.chr$ -- 0
-int.to.str$ -- 15
-missing$ -- 16
-newline$ -- 84
-num.names$ -- 35
-pop$ -- 93
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 3
+num.names$ -- 0
+pop$ -- 0
 preamble$ -- 1
-purify$ -- 73
+purify$ -- 0
 quote$ -- 0
-skip$ -- 105
+skip$ -- 1
 stack$ -- 0
-substring$ -- 218
-swap$ -- 11
-text.length$ -- 1
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 48
+type$ -- 0
 warning$ -- 0
-while$ -- 45
-width$ -- 17
-write$ -- 170
-(There were 2 warnings)
+while$ -- 0
+width$ -- 0
+write$ -- 2
+(There were 36 error messages)

@@ -1,15 +1,17 @@
 % 中文摘要
 \begin{abstract}
 	
-	{\large 没有放图上去，没有特意排版文字段落，仅看基本框架使用。没有引用等，后续更改，多数文字copy，简单充实下。}
 显微成像的应用开始在越来越多的领域中得到应用。光学薄膜的表面粗糙度对其光学特性的测量精度有较大影响。在常见的加工生产过程中，薄膜表面的毛刺、划痕等都可能对精密产品的性能造成影响。为提高产品的光学特性的精度，对相应产品出厂前表面进行实时的、高精度的缺损情况测试具有实际重要意义。使用电子仪器的手段相比于传统人力目测检验方法，具有单位效率高、判定率高、可靠性高等特点，便于元器件表面缺损测试方面向现代微型组件化智能化发展。
-本文依托ARM处理器平台设计了数字化显微成像技术处理系统，并对零部件表面的缺损情况进行了实时测试。此检测系统具有智能化、小型化、图像采集方便实时的特点，可以进一步提高产品出厂前合格率、降低后续产品返修率。整体上，采用索尼的堆栈式CMOS图像传感器IMX135，作为核心数字显微图像采集芯片，借助CSI-2接口将图像传至ARM主板，并利用ARM处理器完成显微图像的图像增强、图像识别等算法处理，并实现了显微图像的后续存储、归档和显示。存储、归档上可以放在存储卡或云端，通过HDMI或网络将图像传输到LED平板显示器上进行显示，达到实现系统集成化、桌面一体化、处理器实时处理的常见功能，同时备选两套方案，即可使用HDMI线缆将显微图像传输到桌面显示，利用以太网或802.11协议，借助路由也可以在异地通过互联网的方式，通过浏览器访问显示显微图像。更好实现产品缺损检测效果的远程实时控制功能。
-本论文完成下面工作：
-\begin{enumerate}
-	\item 完成嵌入式显微成像系统的整体设计，包括光学显微成像子系统、图像显示处理子系统、上位机图像显示子系统等。
-	\item 依据情况，设计显微图像采集的硬件设计方案、软件显示方案。分析技术要求、选型相应硬件，借助树莓派为主的ARM处理器平台，利用发布的CSI接口适配图像处理驱动和Web显示B/S方案，实时采集的图像通过CSI-2接口传输到基于ARM的主板，经过图像增强和图像滤波算法处理后，将相应图像显示出来。
-	\item 对设计的ARM平台下的嵌入式显微成像系统进行相应的实验测试，在不同的光照强度下，对缺损的光学薄膜表面情况进行成像检验，改进系统不足，最后满足系统的整体设计要求。
-\end{enumerate}
+
+本文依托ARM处理器平台设计了数字化显微成像技术处理系统，并对零部件表面的缺损情况进行了实时测试。此检测系统具有智能化、小型化、图像采集方便实时的特点，可以进一步提高产品出厂前合格率、降低后续产品返修率。整体上，采用索尼的堆栈式CMOS图像传感器IMX135，作为核心数字显微图像采集芯片，借助CSI-2接口将图像传至ARM主板，并利用ARM处理器完成显微图像的图像增强、图像识别等算法处理，并实现了显微图像的后续存储、归档和显示。存储、归档上可以放在存储卡或云端，通过HDMI或网络将图像传输到LED平板显示器上进行显示，达到实现系统集成化、桌面一体化、处理器实时处理的常见功能，同时备选两套方案，即可使用HDMI线缆将显微图像传输到桌面显示，利用以太网或802.11协议，借助路由也可以在异地通过互联网的方式，通过浏览器访问显示显微图像。更好实现产品缺损检测效果的远程实时控制功能。搭建了高精度的实时缺损检测平台，针对图像检测研究了显微图像的拼接。
+
+本论文完成下面工作：\\
+%\begin{enumerate}
+%	\item 
+1.完成嵌入式显微成像系统的整体设计，包括光学显微成像子系统、图像显示处理子系统、上位机图像显示子系统等。\\
+2.依据情况，设计显微图像采集的硬件设计方案、软件显示方案。分析技术要求、选型相应硬件，借助树莓派为主的ARM处理器平台，利用发布的CSI接口适配图像处理驱动和Web显示B/S方案，实时采集的图像通过CSI-2接口传输到基于ARM的主板，经过图像增强和图像滤波算法处理后，将相应图像显示出来。\\
+3.对设计的ARM平台下的嵌入式显微成像系统进行相应的实验测试，在不同的光照强度下，对缺损的光学薄膜表面情况进行成像检验，改进系统不足，最后满足系统的整体设计要求。\\
+%\end{enumerate}
 
 
 \end{abstract}
@@ -17,8 +19,12 @@
 
 % 英文摘要
 \begin{enabstract}
-	Optical thin film and its products have been widely used in various fields. The surface roughness of optical thin film has a very important influence on the optical properties such as refractive index, surface scattering and so on. In the process of production and processing, the surface of fine scratches, stains, burrs and other will affect the performance of the products, therefore the process on the surface of the parts of real-time and accurate defect detection has important significance. The traditional manual visual inspection method has the disadvantages of large labor intensity, low accuracy, low efficiency, poor reliability, and so on. It can’t adapt to the needs of the development of modern production totheminiaturizationofintelligent. In view of the on-line detection of the surface defects of the optical thin film, the on-line detection system based on ARM processor is designed. The system has the characteristics of on-line, real-time and non-contact, which is very important for ensuring the quality and improving the production efficiency of the optical thin film products. CMOS image sensor IMX135 is used as digital microscope image acquisition part.Through the CSI-2 interface, the image is transferred to theARM processor. The images are processed and stored in the ARM processor. The image is processed and stored, and the image is transferred to the LCDscreenbyHDMIinterface.Thisthesismainlycompletesthefollowingwork
-  
-
+	The acquistion and processing of image signal are used widely in the fields of scientific research and industrial production,medicine ,biology and so on . At the same time , microscopic image acquisition can be the most popular basic of microscopic imaging system. Usually during the production of the film burrs, scratches  can all have an impact on the performance of precision products. In order to improve the accuracy of the optical properties of the product, the corresponding products manufactured prior to the surface in real time, high accuracy defect testing is of practical importance.Compared to traditional, the way of Using electronic instruments  means of human visual inspection methods, with more high efficiency, high rate of judgment, high reliability, and easy component to the modern surface defect testing tiny components of intelligence.\\
+	Based on ARM processor platform design for digital Microscopy Imaging Processing System, it can be used to defect the parts of surface in real time test. This detection system with intelligent characteristics, small size, convenient image acquisition in real time, can further enhance factory pass rate, reduce product failure rates.As a whole,Sony IMX135 CMOS image sensor, as the core of digital microscopic image chip, transfer image data via CSI-2 interface to ARM boards. And ARM processor is ready to complete micrograph image enhancement, image recognition algorithms, subsequent storage, archiving and display of images.About Storage, archive can be put in storage RAID or cloud, through HDMI cable or via network will transfer image signal to LED display, achieved system intergration, and desktop integration.Processor can process common function in real-time,and then transfer micro image signal to the desktop, by using Ethernet or 802.11 protocol.Through the Internet, this image can also be displayed in the browser.\\
+	This paper includes the following:\\
+	1.Completed a embedded microscopic imaging system with hardware design,software graphical user interface and mainly optical modules.This system includes some special modules such as image acquisition module,image processing module and image displayed modules. \\
+	2.According to the situation of designed, we designed microscopic imaging plans for hardware design,Web graphical user interface. According to the requirements of resolution system , using raspberry pi as a based ARM platform and designing the micro image acquisition platform with the image sensor of SONY IMX135, The image data will be designed with the output interface of CSI-2 MIPI.\\
+	3.The experimental verification of the embedded micro imaging system using raspberry pi can carried out, and the accuracy of this based system is verified by different useful way.\\
+%Better product defect detection results real-time and remote control functions. Built in real time with high accuracy defect detection platform for image detection of microscopic image mosaicing. In this paper the following will show: micro-imaging applications began to be applied in more and more areas. Optical thin film surface roughness on the accuracy of measurement of optical characteristics have a greater impact. In common during the production of the film burrs, scratches and so on can all have an impact on the performance of precision products. In order to improve the accuracy of the optical properties of the product, the corresponding products manufactured prior to the surface in real time, high accuracy defect testing is of practical importance. Use of electronic instruments compared to traditional means of human visual inspection methods, with high efficiency, high rate of judgment, high reliability, and easy component to the modern surface defect testing tiny components of intelligence.
 \end{enabstract}
-\enkeywords{ARM, more, environments, skills}
+\enkeywords{digital microscope,  microscopic imaging，CMOS image sensor, ARM}

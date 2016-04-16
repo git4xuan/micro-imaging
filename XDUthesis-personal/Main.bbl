@@ -1,3 +1,76 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
+
+\bibitem{machine}
+王向军 and 王峰.
+\newblock 显微精密成像与微型机械尺寸检测技术.
+\newblock {\em 光学 精密工程}, 9(6):511--513, 2001.
+
+\bibitem{light3D}
+王云新, 王大勇, 赵洁, 李艳, and 万玉红.
+\newblock 基于数字全息显微成像的微光学元件三维面形检测.
+\newblock {\em 光学学报}, 31(4):109--114, 2011.
+
+\bibitem{eletnature}
+王云新, 王大勇, 杨怡姝, 赵洁, 欧阳丽婷, 肖向茜, and 戎路.
+\newblock 数字全息技术在生物医学成像和分析中的应用.
+\newblock {\em 中国激光}, 41(2):209002--1, 2014.
+
+\bibitem{microimaging}
+Robert~C Kain.
+\newblock Micro-imaging system, 1998.
+
+\bibitem{microimagingelc}
+姚骏恩.
+\newblock 电子显微镜的现状与展望.
+\newblock {\em 电子显微学报}, 17(6):767--776, 1998.
+
+\bibitem{CCDCMOSf}
+熊平.
+\newblock Ccd 与 cmos 图像传感器特点比较.
+\newblock {\em 半导体光电}, 25(1):1--4, 2004.
+
+\bibitem{lightxidian}
+顺祥, 海兴, 物理学, 劲松, and 光学.
+\newblock {\em 物理光学与应用光学}.
+\newblock 西安电子科技大学出版社, 2000.
+
+\bibitem{fenbianlv}
+王华英, 王大勇, 赵洁, and 谢建军.
+\newblock 用于高分辨率成像的简单高效的数字全息技术.
+\newblock {\em Chinese Optics Letters}, 6(3):165--167, 2008.
+
+\bibitem{raspHDMI}
+Raspberry Pi.
+\newblock Raspberry pi.
+\newblock {\em Raspberry Pi 1 HDMI 13 Secure Digital 34 Universal Serial Bus 56
+  Python (programming language) 84}, page~1, 2012.
+
+\bibitem{rasphome}
+Sonal Jain, Anant Vaibhav, and Lovely Goyal.
+\newblock Raspberry pi based interactive home automation system through e-mail.
+\newblock In {\em Optimization, Reliabilty, and Information Technology
+  (ICROIT), 2014 International Conference on}, pages 277--280. IEEE.
+
+\bibitem{v4l2embedded}
+Lu~Yinli, Yu~Hongli, and Zhang Pengpeng.
+\newblock The implementation of embedded image acquisition based on v4l2.
+\newblock In {\em Electronics, Communications and Control (ICECC), 2011
+  International Conference on}, pages 549--552. IEEE.
+
+\bibitem{imageprocessing}
+J.R. Jensen.
+\newblock {\em Introductory digital image processing: A remote sensing
+  perspective}.
+\newblock 1986.
+
+\bibitem{fastprocessing}
+段宗涛, 沙爱民, and 张燕妮.
+\newblock 高性能嵌入式图像处理系统研究.
+\newblock {\em 微电子学与计算机}, 25(6):38--41, 2008.
+
+\bibitem{raspnet}
+汪鑫 and 彭雨薇.
+\newblock 基于树莓派的网络监控系统的研究与实现.
+\newblock {\em 硅谷}, 7(14):25--26, 2014.
 
 \end{thebibliography}

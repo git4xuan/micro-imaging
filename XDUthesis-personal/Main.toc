@@ -16,7 +16,7 @@
 \contentsline {section}{\numberline {2.2}显微成像处理平台器件选型}{6}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}显微镜头物镜目镜选型（不开工）}{6}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}图像传感器的选型}{7}{subsection.2.2.2}
-\contentsline {subsubsection}{CMOS和CCD的比较}{7}{section*.7}
+\contentsline {subsubsection}{CMOS和CCD的比较(CMOS的cite 太少)}{7}{section*.7}
 \contentsline {subsubsection}{图像传感器的选择}{8}{section*.9}
 \contentsline {subsection}{\numberline {2.2.3}图像处理方案研究}{8}{subsection.2.2.3}
 \contentsline {subsection}{\numberline {2.2.4}数据传输接口介绍（CSI USB Ethernet）}{10}{subsection.2.2.4}
@@ -25,26 +25,26 @@
 \contentsline {section}{\numberline {3.1}树莓派平台简介}{11}{section.3.1}
 \contentsline {section}{\numberline {3.2}图像传感器接口驱动程序}{11}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}接口驱动简介}{11}{subsection.3.2.1}
-\contentsline {section}{\numberline {3.3}显微图像预处理}{12}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}预处理图像算法研究分析}{12}{subsection.3.3.1}
-\contentsline {subsubsection}{线性插值}{13}{section*.14}
-\contentsline {subsubsection}{中值滤波法}{13}{section*.15}
-\contentsline {section}{\numberline {3.4}实时图像处理算法分析}{14}{section.3.4}
-\contentsline {section}{\numberline {3.5}上位机图像显示处理}{15}{section.3.5}
-\contentsline {subsubsection}{Django}{15}{section*.17}
-\contentsline {subsubsection}{Qt}{15}{section*.18}
-\contentsline {subsubsection}{GTK+}{15}{section*.19}
+\contentsline {section}{\numberline {3.3}显微图像预处理}{14}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}预处理图像算法研究分析}{14}{subsection.3.3.1}
+\contentsline {subsubsection}{线性插值}{14}{section*.15}
+\contentsline {subsubsection}{中值滤波法}{14}{section*.16}
+\contentsline {section}{\numberline {3.4}实时图像处理算法分析}{15}{section.3.4}
+\contentsline {section}{\numberline {3.5}上位机图像显示处理}{16}{section.3.5}
+\contentsline {subsubsection}{Django}{16}{section*.18}
+\contentsline {subsubsection}{Qt}{16}{section*.19}
+\contentsline {subsubsection}{GTK+}{16}{section*.20}
 \contentsline {chapter}{\numberline {第四章\hspace {0.3em}}显微成像系统的检测实验}{17}{chapter.4}
 \contentsline {section}{\numberline {4.1}薄膜表面缺陷检测测试}{17}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}实验仪器介绍和安装}{17}{subsection.4.1.1}
-\contentsline {subparagraph}{硬件环境搭建}{17}{section*.20}
-\contentsline {subparagraph}{软件系统设置}{17}{section*.21}
+\contentsline {subparagraph}{硬件环境搭建}{17}{section*.21}
+\contentsline {subparagraph}{软件系统设置}{17}{section*.22}
 \contentsline {subsection}{\numberline {4.1.2}缺陷检测结果分析}{17}{subsection.4.1.2}
 \contentsline {subsection}{\numberline {4.1.3}本章小节}{18}{subsection.4.1.3}
 \contentsline {chapter}{\numberline {第五章\hspace {0.3em}}总结与展望}{19}{chapter.5}
 \contentsline {section}{\numberline {5.1}论文工作总结}{19}{section.5.1}
 \contentsline {section}{\numberline {5.2}未来发展展望}{19}{section.5.2}
-\contentsline {chapter}{致谢}{21}{chapter*.22}
-\contentsline {chapter}{参考文献}{23}{section*.23}
+\contentsline {chapter}{致谢}{21}{chapter*.23}
+\contentsline {chapter}{参考文献}{23}{section*.24}
 \contentsline {chapter}{\numberline {附录 A\hspace {0.3em}}数据}{25}{appendix.A}
 \contentsline {section}{\numberline {A.1}代码}{25}{section.A.1}

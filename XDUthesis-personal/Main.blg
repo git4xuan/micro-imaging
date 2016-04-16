@@ -1,0 +1,87 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/W32TeX)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Main.aux
+The style file: unsrt.bst
+Illegal, another \bibstyle command---line 110 of file Main.aux
+ : \bibstyle
+ :          {XDUbib}
+I'm skipping whatever remains of this command
+Database file #1: ThesisFiles/one.bib
+I was expecting a `,' or a `}'---line 3 of file ThesisFiles/one.bib
+ :    author 
+ :           = {Belshe, Mike and Peon, Roberto},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 17 of file ThesisFiles/one.bib
+ :    author 
+ :           = {Belshe, Mike and Thomson, Martin and Peon, Roberto},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 31 of file ThesisFiles/one.bib
+ :    author 
+ :           = {Fielding, Roy and Gettys, Jim and Mogul, Jeffrey and Frystyk, Henrik and Masinter, Larry and Leach, Paul and Berners-Lee, Tim},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 47 of file ThesisFiles/one.bib
+ :    author 
+ :           = {Holovaty, Adrian and Kaplan-Moss, Jacob},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 197 of file ThesisFiles/one.bib
+ :    author 
+ :           = {Padhye, Jitu and Nielsen, Henrik Frystyk},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 267 of file ThesisFiles/one.bib
+ :    
+ :    author = {Upton, Eben and Halfacree, Gareth},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 309 of file ThesisFiles/one.bib
+ :    author 
+ :           = {Verborgh, Ruben and Steiner, Thomas and Van Deursen, Davy and De Roo, Jos and Van de Walle, Rik and Vallés, Joaquim Gabarro},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 327 of file ThesisFiles/one.bib
+ :    author 
+ :           = {Wang, Xiao Sophia and Balasubramanian, Aruna and Krishnamurthy, Arvind and Wetherall, David},
+I'm skipping whatever remains of this entry
+Warning--empty year in rasphome
+Warning--empty year in v4l2embedded
+Warning--empty publisher in imageprocessing
+You've used 14 entries,
+            1791 wiz_defined-function locations,
+            537 strings with 5462 characters,
+and the built_in function-call counts, 3300 in all, are:
+= -- 280
+> -- 140
+< -- 3
++ -- 53
+- -- 39
+* -- 229
+:= -- 515
+add.period$ -- 43
+call.type$ -- 14
+change.case$ -- 12
+chr.to.int$ -- 0
+cite$ -- 17
+duplicate$ -- 151
+empty$ -- 336
+format.name$ -- 39
+if$ -- 758
+int.to.chr$ -- 0
+int.to.str$ -- 14
+missing$ -- 15
+newline$ -- 72
+num.names$ -- 14
+pop$ -- 46
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 68
+stack$ -- 0
+substring$ -- 205
+swap$ -- 37
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 3
+while$ -- 27
+width$ -- 16
+write$ -- 150
+(There were 9 error messages)

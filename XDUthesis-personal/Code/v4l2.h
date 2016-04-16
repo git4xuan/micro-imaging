@@ -9,13 +9,20 @@
  * @raw_data:    placeholder for future extensions and custom formats
  */
 struct v4l2_format {
-    enum v4l2_buf_type type;    /* V4L2_BUF_TYPE_VIDEO_CAPTURE */
+    enum v4l2_buf_type type;    
+	/* V4L2_BUF_TYPE_VIDEO_CAPTURE */
     union {
-        struct v4l2_pix_format        pix;     /* V4L2_BUF_TYPE_VIDEO_CAPTURE */
-        struct v4l2_pix_format_mplane    pix_mp;  /* V4L2_BUF_TYPE_VIDEO_CAPTURE_MPLANE */
-        struct v4l2_window        win;     /* V4L2_BUF_TYPE_VIDEO_OVERLAY */
-        struct v4l2_vbi_format        vbi;     /* V4L2_BUF_TYPE_VBI_CAPTURE */
-        struct v4l2_sliced_vbi_format    sliced;  /* V4L2_BUF_TYPE_SLICED_VBI_CAPTURE */
-        __u8    raw_data[200];                   /* user-defined */
+        struct v4l2_pix_format        pix;     
+		/* V4L2_BUF_TYPE_VIDEO_CAPTURE */
+        struct v4l2_pix_format_mplane    pix_mp;  
+		/* V4L2_BUF_TYPE_VIDEO_CAPTURE_MPLANE */
+        struct v4l2_window        win;    
+		/* V4L2_BUF_TYPE_VIDEO_OVERLAY */
+        struct v4l2_vbi_format        vbi;    
+		/* V4L2_BUF_TYPE_VBI_CAPTURE */
+        struct v4l2_sliced_vbi_format    sliced; 
+		/* V4L2_BUF_TYPE_SLICED_VBI_CAPTURE */
+        __u8    raw_data[200];                  
+		/* user-defined */
     } fmt;
 };

@@ -9,6 +9,7 @@
  * @raw_data:    placeholder for future extensions and custom formats
  */
 struct v4l2_format {
+    enum v4l2_buf_type type;    /* V4L2_BUF_TYPE_VIDEO_CAPTURE */
     union {
         struct v4l2_pix_format        pix;     /* V4L2_BUF_TYPE_VIDEO_CAPTURE */
         struct v4l2_pix_format_mplane    pix_mp;  /* V4L2_BUF_TYPE_VIDEO_CAPTURE_MPLANE */

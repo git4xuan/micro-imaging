@@ -32,6 +32,7 @@
 \LoadClass[cs4size,a4paper,UTF8]{ctexbook}[2015/05/16]
 \RequirePackage{ifxetex}
 \RequirePackage{xcolor}
+\RequirePackage{colortbl}
 \RequirePackage[T1]{fontenc}
 \RequirePackage{amsmath,amssymb}
 \RequirePackage{graphicx}

@@ -39,6 +39,28 @@ Robert~C Kain.
 \newblock 用于高分辨率成像的简单高效的数字全息技术.
 \newblock {\em Chinese Optics Letters}, 6(3):165--167, 2008.
 
+\bibitem{IoT}
+苏祥林, 陈文艺, and 闫洒洒.
+\newblock 基于树莓派的物联网开放平台.
+\newblock {\em 电子科技}, (09):35--37+41, 2015.
+
+\bibitem{bscs}
+刘媛, 张伟, and 王知学.
+\newblock 基于 b/s 和 c/s 架构的嵌入式远程监控系统.
+\newblock {\em 仪表技术与传感器}, (10):39--41, 2008.
+
+\bibitem{bshome}
+闫石.
+\newblock {\em
+  基于嵌入式B/S架构的智能家居远程监控系统开发}.
+\newblock 硕士, 2014.
+
+\bibitem{restful}
+Frederico Valente, Carlos Viana-Ferreira, Carlos Costa, and Jose~Luis Oliveira.
+\newblock A restful image gateway for multiple medical image repositories.
+\newblock {\em Information Technology in Biomedicine, IEEE Transactions on},
+  16(3):356--364, 2012.
+
 \bibitem{raspHDMI}
 Raspberry Pi.
 \newblock Raspberry pi.
@@ -68,9 +90,29 @@ J.R. Jensen.
 \newblock 高性能嵌入式图像处理系统研究.
 \newblock {\em 微电子学与计算机}, 25(6):38--41, 2008.
 
+\bibitem{fenge}
+刘松涛 and 殷福亮.
+\newblock 基于图割的图像分割方法及其新进展.
+\newblock {\em 自动化学报}, (06):911--922, 2012.
+
+\bibitem{guleialgo}
+许晓丽.
+\newblock {\em 基于聚类分析的图像分割算法研究}.
+\newblock 博士, 2012.
+
 \bibitem{raspnet}
 汪鑫 and 彭雨薇.
 \newblock 基于树莓派的网络监控系统的研究与实现.
 \newblock {\em 硅谷}, 7(14):25--26, 2014.
+
+\bibitem{rasgpio}
+李文胜.
+\newblock 基于树莓派的嵌入式linux开发教学探索.
+\newblock {\em 电子技术与软件工程}, (09):219--220, 2014.
+
+\bibitem{rasptcpip}
+李龙棋, 方美发, and 唐晓腾.
+\newblock 树莓派平台下的实时监控系统开发.
+\newblock {\em 闽江学院学报}, (05):67--72, 2014.
 
 \end{thebibliography}

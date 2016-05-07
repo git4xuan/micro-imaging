@@ -74,3 +74,9 @@ meiyouteshe 没有特色！！！！！
 
 AWPSKD-779EF3-7B5BC2 阿香婆的优化注册码
 AW16A2-779C9C-D8BC92
+
+T44B-ANBH-EEMJ-N3RC-UBD2
+
+SSPASSWORD=nagiZip!
+docker run --name=ss1984 -d -p 1984:1984 oddrationale/docker-shadowsocks -s 0.0.0.0 -p 1984 -k $SSPASSWORD -m rc4-md5  
+docker run --name=ss440 -d -p 440:440 oddrationale/docker-shadowsocks -s 0.0.0.0 -p 440 -k $SSPASSWORD -m rc4-md5  

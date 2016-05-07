@@ -1,3 +1,4 @@
+
 %%
 %% This is file `XDUthesis.cls',
 %% generated with the docstrip utility.
@@ -32,7 +33,7 @@
 \LoadClass[cs4size,a4paper,UTF8]{ctexbook}[2015/05/16]
 \RequirePackage{ifxetex}
 \RequirePackage{xcolor}
-\RequirePackage{colortbl}
+%\RequirePackage{colortbl}
 \RequirePackage[T1]{fontenc}
 \RequirePackage{amsmath,amssymb}
 \RequirePackage{graphicx}
@@ -41,6 +42,7 @@
 \RequirePackage[toc,page,title,titletoc,header]{appendix}
 \RequirePackage{listings}
 \RequirePackage{CJKfntef}
+%\RequirePackage{times}
 \RequirePackage{longtable,multirow,hhline,tabularx,array,
                 makecell,diagbox,colortbl,booktabs}
 \RequirePackage[labelformat=simple,skip=10pt]{subcaption}

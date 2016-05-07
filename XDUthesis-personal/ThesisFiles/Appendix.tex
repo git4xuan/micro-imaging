@@ -1,22 +1,85 @@
-\chapter{数据}
-这里是附录的数据部分，作为测试；来看个公式编号对不对，如式\eqref{Eq:ApEq1}所示。
+\chapter{网页索引}
+%这里是附录的数据部分，作为测试；来看个公式编号对不对，如式\eqref{Eq:ApEq1}所示。
 
-	
-\section{代码}
-\lstinputlisting[language=C,caption={C code},label=c]{./Code/v4l2.h}
+%\chapter{网页索引}
+附录部分记录相关的知识网页，便于索引和查看。
+
+
+
+https://www.raspberrypi.org/documentation/usage/camera/python/README.md 
+   
+https://www.raspberrypi.org/documentation/usage/camera/raspicam/raspistill.md
+
+https://www.raspberrypi.org/forums/viewtopic.php?t=62364    
+
+http://www.rs-online.com/designspark/electronics/blog/content-20
+
+https://github.com/hypriot/rpi-kernel    
+
+https://github.com/raspberrypi/tools  
+
+https://www.djangoproject.com/  
+
+https://github.com/django/django
+
+\chapter{缩略语对照表}
+
+\begin{table}[htbp]
+	\caption{\label{tab:index}缩略语对照表}
+	\centering
+\begin{tabular}{L{1.8cm} C{7cm} R{4.5cm} }
+		\toprule
+		缩略语 & 英文全称 & 中文对照\\
+		\midrule
+		ARM & Advanced RISC Machine  & 进阶精简指令集机器 \\
+		GPU & Graphics Processing Unit & 图形处理器 \\
+		CMOS & Complementary Metal Oxide Semiconductor & 互补金属氧化物半导体 \\
+		CCD & Charge-coupled Device  & 感光耦合元件 \\
+		CSI & COMS Sensor Interface & CSI接口\\
+		BSI & Backside Illumination & 背照式CMOS \\
+		SEM & Scanning Electron Microscope & 扫描电子显微镜\\
+		B/S & Browser/Server & 浏览器/服务器模式 \\
+		C/S & Client/Server  & 客户端/服务器模式 \\
+		SoC & System on Chip  & 系统级芯片 \\
+		VLSI & Very Large Scale Integration & 超大规模集成电路 \\
+		V4L2 & Video for Linux two & 视频获取和装置输出API \\
+		API   & Application Programming Interface  & 应用编程接口 \\
+		MVC & Model-View-Controller & 模型-视图-控制器 \\
+		MOC & Meta Object Compiler & 元对象编译器 \\
+		LED & Light-emitting Diode & 发光二极管 \\
+		CGI & Common Gateway Interface  & 通用网关接口\\
+		HDMI & High Definition Multimedia Interface & 高品质多媒体介面\\
+	    USB & Universal Serial Bus  & 通用串行总线 \\
+		Ethernet & Ethernet & 以太网\\
+		\bottomrule
+\end{tabular}
+\end{table}
+
+\chapter{附录代码}
+
+\lstinputlisting[language=C,caption={C code},label=v4l2]{./Code/v4l2.h}
 	%标题不编号
-\lstinputlisting[language=Java,title={Java code},label=java]{./Code/JavaTest.java}
+%\lstinputlisting[language=Java,title={Java code},label=java]{./Code/JavaTest.java}
 	%无行号e/floyd.m}
 
 %% 本科生要这几个索引，研究生不要。选择性留下。
-% 插图索引
+\chapter{插图表格索引}
+%\section{插图索引} 
 \listoffigures
-% 表格索引
+%\chapter{表格索引} 
 \listoftables
-% 公式索引
+
+\chapter{未完成的地方的备注}
+引用还有几处地方没有添加，主要是多轮下载论文之后没有导入endnote。
+
+图片需要再稍微添加一些，包括对应的设备。
+图片和表格需要添加很多，才能显得丰满，这里添加的太少了。。。
+
+
+部分的代码需要进行更改和添加。
+
+
 
 
 %\begin{thebibliography}{A1}
-
-
 %\end{thebibliography}

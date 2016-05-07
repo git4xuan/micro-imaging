@@ -24,10 +24,20 @@ Robert~C Kain.
 \newblock 电子显微镜的现状与展望.
 \newblock {\em 电子显微学报}, 17(6):767--776, 1998.
 
-\bibitem{CCDCMOSf}
-熊平.
-\newblock Ccd 与 cmos 图像传感器特点比较.
-\newblock {\em 半导体光电}, 25(1):1--4, 2004.
+\bibitem{xianwei}
+周疆明, 程路明, and 贾宏涛.
+\newblock 显微镜技术研究进展.
+\newblock {\em 新疆农业科学}, (S1):53--56, 2006.
+
+\bibitem{baomo2002}
+王学华, 薛亦渝, 赵利, and 张幼陵.
+\newblock 新型光学薄膜研究及发展现状.
+\newblock {\em 武汉理工大学学报}, (02):20--23, 2002.
+
+\bibitem{baomodev2012}
+李金丽, 刘全校, and 许文才.
+\newblock 光学薄膜及其发展现状.
+\newblock {\em 化工新型材料}, v.40;No.473(02):14--15+20, 2012.
 
 \bibitem{lightxidian}
 顺祥, 海兴, 物理学, 劲松, and 光学.
@@ -38,6 +48,11 @@ Robert~C Kain.
 王华英, 王大勇, 赵洁, and 谢建军.
 \newblock 用于高分辨率成像的简单高效的数字全息技术.
 \newblock {\em Chinese Optics Letters}, 6(3):165--167, 2008.
+
+\bibitem{CCDCMOSf}
+熊平.
+\newblock Ccd 与 cmos 图像传感器特点比较.
+\newblock {\em 半导体光电}, 25(1):1--4, 2004.
 
 \bibitem{IoT}
 苏祥林, 陈文艺, and 闫洒洒.

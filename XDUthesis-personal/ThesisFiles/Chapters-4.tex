@@ -15,20 +15,53 @@
 先组装光学镜头部分，将之前选择好的显微镜头和CMOS摄像头通过CS口连接，后数据到ARM版卡的连接使用排线的方式。照明光源为LED的环状反射式照明，根据不同的薄膜透明度调节相应的亮度，进行数据的采集工作。之后将CMOS摄像头通过排线和ARM板的CSI-2接口进行连接，HDMI线缆将显示器与树莓派连接。
 
 后进行基础的系统安装和配置。在Linux中使用dd命令将对应的镜像烧录到对应的SD卡的设备中，Windows可以使用NOOBS进行镜像的选择和启动。选择后可以进入命令行界面，进入配置的调试。在raspi-config中，选择配置对应的locale、module、sshd、overload等常见设置。后如选择进入命令行，则可用startx开启对应的桌面，也可在配置中默认启动。默认的账号和密码为pi和raspberry。对package进行更新和升级，安装vim-enchanced,调节对应的驱动安装，测试raspistill，raspivid和raspiyuv是否可用，后安装python，python3-picamera方便进行picamera的调用。可以安装python-picamera-docs进行查看。安装pypi，进行Django的安装。
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{Figure/rasp_dd}
+\caption{写入镜像}
+\label{fig:rasp_dd}
+\end{figure}
 
 
 \begin{figure}[h]
+	\begin{minipage}[t]{0.5\linewidth}
 \centering
-\includegraphics[width=0.7\linewidth]{Figure/rasp_4}
-\caption{安装系统界面}
+\includegraphics[width=0.7\linewidth]{Figure/rasp_config}
+\caption{安装系统界面 }
 \label{fig:rasp_4}
+	\end{minipage}
+	\begin{minipage}[t]{0.5\linewidth}
+		\centering
+		\includegraphics[width=0.7\linewidth]{Figure/rasp_config}
+		\caption{安装系统界面 }
+		\label{fig:rasp_4}
+	\end{minipage}
 \end{figure}
+
+
+\begin{figure}[h]
+	\begin{minipage}[t]{0.5\linewidth}
+\centering
+\includegraphics[width=0.5\linewidth]{Figure/rasp_dasktopjpg}
+\caption{LXDE桌面显示}
+\label{fig:rasp_dasktopjpg}
+	\end{minipage}
+\end{figure}
+
 
 \subparagraph{软件系统设置（图片）}
 %需要进行Django的安装和Server机的安装，
 确认相关软件安装无误后，在localhost环境下进行测试，配置界面中调节好相应的jpeg的参数，包括帧数设定，时间间隔设定，存储位置设定，像素设定等。这里将帧数设定为每秒30帧，图像输出大小为4208x3120，每5秒拍摄一次，保存格式为jpeg。
 
 搭建的实验系统平台如图 所示，连接显微镜头和 CMOS镜头后，在浏览器中输入localhost，进行相关的调节，并调节好显微镜焦距，观测镜片表面的薄膜。
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{Figure/rasp_fake_django}
+\caption{}
+\label{fig:rasp_fake_django}
+\end{figure}
+
 %\subparagraph{使用方式解释说明}
 
 \subsection{缺陷检测结果分析}

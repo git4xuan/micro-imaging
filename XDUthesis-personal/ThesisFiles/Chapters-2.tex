@@ -38,7 +38,7 @@ J = l_{0}\cdot d / f_{1}f_{2}
 一个典型显微镜如图\ref{fig:mi_1}所示。
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.7\linewidth]{Figure/mi_1}
+\includegraphics[width=0.5\linewidth]{Figure/mi_1}
 \caption{典型显微镜结构图}
 \label{fig:mi_1}
 \end{figure}
@@ -88,7 +88,17 @@ ndsin \alpha=n'd'sin \alpha'
 
 \subsection{图像传感器的选型}
 固体图像传感器已经广泛地应用于生活各处，包括像电子照相机、DV、智能监控、手机、平板和摄像头等。固体图像传感器是利用半导体材料的内光电效应原理制成的光电转换器件,依据工艺结构可以分为两大类:一类是电荷耦合器件(CCD)图像传感器;另一类是互补金属氧化物(CMOS)图像传感器。两种目前常见的图像传感器都是上世纪60年代开始研制,在当时由于CCD图像传感器灵敏度更高、噪声较低而成为当时图像传感器的主流。而CMOS图像传感器由于工艺上的提升限制,长时间未能摆脱光照灵敏度低、噪声无法下降和图像分辨率低等不足。于此同时，CCD图像传感器由于敏感元件和信号处理电路无法集成在同一芯片上，使得照相机体积大、功耗大\cite{CCDCMOSf}。
+
 进入新世纪，时间发展，随着互联网向移动互联网的转移，智能手机的发展十分迅速，由于CMOS图像传感器却有集成度高、体积小、功耗小和造价低等优点,十分适合在手机上进行集成，考虑到两种图像传感器的技术特点和缺点改进方式，随集成电路设计技术和迭代工艺水平的提高,CMOS图像传感器过去存在的缺点,现在开始逐渐进行技术攻关,常见的背照式结构让CMOS图像传感器在光线摄入上有长足的发展，而且它其固有的特点更是CCD器件所无法比拟的,因而它再次成为研究和工业需求的热点。
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{Figure/CCD_1}
+\includegraphics[width=0.7\linewidth]{Figure/CMOS_1}
+\caption{}
+\label{fig:CCD_1}
+\end{figure}
+
 \subsubsection{CMOS和CCD的比较}
 CCD和CMOS两者在多个维度上有着较大特性上的差异：
 
@@ -114,16 +124,16 @@ CMOS图像传感器易于在SoC上集成，便于在同一芯片中同时进行�
 %\toprule[1pt]
 \hline
 	& CMOS图像传感器 & CCD图像传感器 \\ \hline
-	\rowcolor{mygray} \hline
+	%\rowcolor{mygray} \hline
 	感光灵敏度 & 低 & 高 \\ \hline
 	噪声电子数 & 200 & 50 \\ \hline
-	\rowcolor{mygray}
+	%\rowcolor{mygray}
 	电路集成度 & 高 & 低 \\ \hline
 	工艺难度 & 小 & 大 \\ \hline
-	\rowcolor{mygray}
+	%\rowcolor{mygray}
 	成本 & 低 & 高 \\ \hline
 	功耗 & 低 & 高 \\  \hline
-	\rowcolor{mygray}
+	%\rowcolor{mygray}
 	ADC  & 片内集成  &  片外设置 \\ \hline
  \end{tabular} 
 \end{table}
@@ -181,7 +191,7 @@ CMOS图像传感器易于在SoC上集成，便于在同一芯片中同时进行�
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.7\linewidth]{Figure/rasp_3}
+	\includegraphics[width=0.7\linewidth]{Figure/rasp_all}
 	\caption{树莓派基本硬件接口}
 	\label{fig:rasp_1}
 \end{figure}
@@ -203,6 +213,21 @@ USB是连接电脑系统与外部设备的一种串口总线标准，也是一�
 \section{系统平台选择搭建}
 %B/S(Browser/Server)架构,是浏览器和服务器的通信连接模式。在这一结构下,用户通过浏览器完成绝大多数的显示和回调，数据处理和归档还是主要通过服务器实现。这样可以大大简化的任务,减轻了系统维护与升级的成本,为用户的使用带来方便。但是,该方案有着系统运行速度和稳定性不够高的局限性。
 %C/S(Client/Server)架构,即客户机和服务器的通信连接模式。它属于应用软件系统,充分利用客户端和服务器端的硬件环境,具体的运算和数据的处理被放在客户端,从而使客户端变得很“胖”,一般称为“胖客户机”;相对地,服务器端的任务较轻,称为“瘦服务器”,这样将任务合理分配到Client端和Server端来实现,降低了系统的通讯开销。
-常见的架构方式包括B/S架构和C/S架构。B/S架构,是浏览器和服务器的通信连接模式。在这一结构下,用户通过浏览器完成绝大多数的显示和回调，数据处理和归档还是主要通过服务器实现。这样可以大大简化的任务,减轻了系统维护与升级的成本,为用户的使用带来方便。但是,考虑到网络的时延等，该方案有着系统运行速度和稳定性不够高的局限性。C/S架构,即客户机和服务器的通信连接模式。它属于应用软件系统,充分利用客户端和服务器端的硬件环境,较为常见的是将具体的运算和数据的处理被放在客户端,从而使客户端变得很“胖”,一般称为“胖客户机”;相对地,服务器端的任务较轻,称为“瘦服务器”，和操作系统的连接较为紧密\cite{bscs}。
+常见的架构方式包括B/S架构和C/S架构。B/S架构,是浏览器和服务器的通信连接模式。在这一结构下,用户通过浏览器完成绝大多数的显示和回调，数据处理和归档还是主要通过服务器实现。这样可以大大简化的任务,减轻了系统维护与升级的成本,为用户的使用带来方便。但是,考虑到网络的时延等，该方案有着系统运行速度和稳定性不够高的局限性。
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{Figure/bs01}
+\caption{B/S架构图示}
+\label{fig:bs01}
+\end{figure}
+
+
+C/S架构,即客户机和服务器的通信连接模式。它属于应用软件系统,充分利用客户端和服务器端的硬件环境,较为常见的是将具体的运算和数据的处理被放在客户端,从而使客户端变得很“胖”,一般称为“胖客户机”;相对地,服务器端的任务较轻,称为“瘦服务器”，和操作系统的连接较为紧密\cite{bscs}。
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{Figure/cs01}
+\caption{C/S架构图示}
+\label{fig:cs01}
+\end{figure}
 
 相对于C/S模式，B/S模式显著的特点是浏览的跨平台操作，方便使用，考虑到跨平台的优势，所以目前越来越多的平台功能特性放在B/S架构下\cite{bshome}。

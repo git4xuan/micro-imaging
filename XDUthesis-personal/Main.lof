@@ -3,15 +3,22 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces 模块介绍\relax }}{7}{figure.caption.4}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces 显微镜成像光路图}}{7}{figure.caption.5}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces 典型显微镜结构图\relax }}{8}{figure.caption.6}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces 树莓派基本硬件接口\relax }}{13}{figure.caption.11}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces \relax }}{11}{figure.caption.7}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces 树莓派基本硬件接口\relax }}{14}{figure.caption.12}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces B/S架构图示\relax }}{15}{figure.caption.13}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces C/S架构图示\relax }}{15}{figure.caption.14}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces 树莓派实物和接口\relax }}{15}{figure.caption.12}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces 显微平台数据流向\relax }}{16}{figure.caption.13}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces 中值滤波三三法\relax }}{18}{figure.caption.16}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces 树莓派实物和接口\relax }}{17}{figure.caption.15}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces 显微平台数据流向\relax }}{18}{figure.caption.16}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces 中值滤波三三法\relax }}{20}{figure.caption.19}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces 安装系统界面\relax }}{22}{figure.caption.21}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces 示例图像\relax }}{22}{figure.caption.23}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces 主要缺陷图（ex）\relax }}{23}{figure.caption.24}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces 写入镜像\relax }}{24}{figure.caption.24}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces 安装系统界面 \relax }}{24}{figure.caption.25}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces 安装系统界面 \relax }}{24}{figure.caption.25}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces LXDE桌面显示\relax }}{25}{figure.caption.26}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces \relax }}{25}{figure.caption.28}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces 示例图像\relax }}{25}{figure.caption.29}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces 主要缺陷图（ex）\relax }}{25}{figure.caption.30}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
